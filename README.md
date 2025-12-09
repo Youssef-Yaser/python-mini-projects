@@ -1,2 +1,47 @@
-# python-mini-projects
-"Mastering Python through practical challenges: Games, Automation Scripts, APIs, and Data Analysis tools."
+# 🐍 Python Mini-Projects Collection
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
+
+## 📌 Overview
+This repository contains **21 Python projects** ranging from beginner scripts to advanced automation and GUI applications. 
+
+The goal of this collection is to master Python fundamentals, file handling, API integration, and automation logic.
+
+## 📂 Project List
+
+I have categorized the projects by difficulty level:
+
+### 🟢 Beginner (Logic & Syntax)
+| # | Project Name | Key Concepts | Status |
+|:-:| :--- | :--- | :---: |
+| 01 | **Quiz Game** | Input handling, If/Else logic | ✅ Done |
+| 02 | **Number Guessing Game** | Random module, Loops | ✅ Done |
+| 03 | **Rock, Paper, Scissors** | Conditionals, Random choice | ✅ Done |
+| 04 | **Adventure Game** | Nested loops, User flow | ⬜ Todo |
+| 12 | **Alarm Clock** | DateTime, Audio libraries | ⬜ Todo |
+| 13 | **Password Generator** | String manipulation, Randomization | ⬜ Todo |
+
+### 🟡 Intermediate (Automation & External Libraries)
+| # | Project Name | Key Concepts | Status |
+|:-:| :--- | :--- | :---: |
+| 05 | **Password Manager** | File I/O, Cryptography (Fernet) | ⬜ Todo |
+| 06 | **PIG Game** | Game logic, While loops | ⬜ Todo |
+| 07 | **Madlibs Generator** | String formatting, File reading | ⬜ Todo |
+| 08 | **Timed Math Challenge** | Time module, Performance tracking | ⬜ Todo |
+| 09 | **Slot Machine** | Probability, Betting logic | ⬜ Todo |
+| 10 | **Turtle Racing** | Turtle Graphics library | ⬜ Todo |
+| 11 | **WPM Typing Test** | Curses library, Real-time input | ⬜ Todo |
+| 15 | **NBA Stats Tool** | APIs, JSON parsing | ⬜ Todo |
+| 16 | **Currency Converter** | HTTP Requests, APIs | ⬜ Todo |
+| 17 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
+| 18 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
+
+### 🔴 Advanced (Algorithms & Complex Logic)
+| # | Project Name | Key Concepts | Status |
+|:-:| :--- | :--- | :---: |
+| 14 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ⬜ Todo |
+| 19 | **Mastermind Game** | Complex Logic, Pattern matching | ⬜ Todo |
+| 20 | **Aim Trainer** | Pygame, Event handling, GUI | ⬜ Todo |
+| 21 | **Advanced Scripting** | Multithreading, System args | ⬜ Todo |
+
