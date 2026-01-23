@@ -26,7 +26,7 @@ I have categorized the projects by difficulty level:
 | # | Project Name | Key Concepts | Status |
 |:-:| :--- | :--- | :---: |
 | 05 | **Password Manager** | File I/O, Cryptography (Fernet) | ✅ Done |
-| 06 | **PIG Game** | Game logic, While loops | ⬜ Todo |
+| 06 | **PIG Game** | Game logic, While loops | ✅ Done |
 | 07 | **Madlibs Generator** | String formatting, File reading | ⬜ Todo |
 | 08 | **Timed Math Challenge** | Time module, Performance tracking | ⬜ Todo |
 | 09 | **Slot Machine** | Probability, Betting logic | ⬜ Todo |
