@@ -25,7 +25,7 @@ I have categorized the projects by difficulty level:
 ### 🟡 Intermediate (Automation & External Libraries)
 | # | Project Name | Key Concepts | Status |
 |:-:| :--- | :--- | :---: |
-| 05 | **Password Manager** | File I/O, Cryptography (Fernet) | ⬜ Todo |
+| 05 | **Password Manager** | File I/O, Cryptography (Fernet) | ✅ Done |
 | 06 | **PIG Game** | Game logic, While loops | ⬜ Todo |
 | 07 | **Madlibs Generator** | String formatting, File reading | ⬜ Todo |
 | 08 | **Timed Math Challenge** | Time module, Performance tracking | ⬜ Todo |
