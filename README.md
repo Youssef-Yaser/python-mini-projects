@@ -28,7 +28,7 @@ I have categorized the projects by difficulty level:
 | 07 | **Password Manager** | File I/O, Cryptography (Fernet) | ✅ Done |
 | 08 | **PIG Game** | Game logic, While loops | ✅ Done |
 | 09 | **Madlibs Generator** | String formatting, File reading | ✅ Done |
-| 10 | **Timed Math Challenge** | Time module, Performance tracking | ⬜ Todo |
+| 10 | **Timed Math Challenge** | Time module, Performance tracking | ✅ Done |
 | 11 | **Slot Machine** | Probability, Betting logic | ⬜ Todo |
 | 12 | **Turtle Racing** | Turtle Graphics library | ⬜ Todo |
 | 13 | **WPM Typing Test** | Curses library, Real-time input | ⬜ Todo |
