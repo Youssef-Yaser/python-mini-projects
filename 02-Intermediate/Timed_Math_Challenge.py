@@ -18,7 +18,7 @@ class Color:
 
 
 # =========================
-# Game Header
+# Header
 # =========================
 print(f"{Color.INFO}{Color.BOLD}")
 print("====================================")
@@ -26,9 +26,7 @@ print("       Timed Math Challenge         ")
 print("====================================")
 print(Color.END)
 
-# =========================
-# Game Settings
-# =========================
+
 OPERATORS = ["+", "-", "*", "/"]
 MIN_OPERAND = 0
 MAX_OPERAND = 12
@@ -52,7 +50,7 @@ def generate_operation():
 
 
 # =========================
-# Game Loop
+# Loop
 # =========================
 problem_number = 1
 generate_new = True
