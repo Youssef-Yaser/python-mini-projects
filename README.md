@@ -19,28 +19,28 @@ I have categorized the projects by difficulty level:
 | 02 | **Number Guessing Game** | Random module, Loops | ✅ Done |
 | 03 | **Rock, Paper, Scissors** | Conditionals, Random choice | ✅ Done |
 | 04 | **Adventure Game** | Nested loops, User flow | ✅ Done |
-| 12 | **Alarm Clock** | DateTime, Audio libraries | ⬜ Todo |
-| 13 | **Password Generator** | String manipulation, Randomization | ⬜ Todo |
+| 05 | **Alarm Clock** | DateTime, Audio libraries | ⬜ Todo |
+| 06 | **Password Generator** | String manipulation, Randomization | ⬜ Todo |
 
 ### 🟡 Intermediate (Automation & External Libraries)
 | # | Project Name | Key Concepts | Status |
 |:-:| :--- | :--- | :---: |
-| 05 | **Password Manager** | File I/O, Cryptography (Fernet) | ✅ Done |
-| 06 | **PIG Game** | Game logic, While loops | ✅ Done |
-| 07 | **Madlibs Generator** | String formatting, File reading | ⬜ Todo |
-| 08 | **Timed Math Challenge** | Time module, Performance tracking | ⬜ Todo |
-| 09 | **Slot Machine** | Probability, Betting logic | ⬜ Todo |
-| 10 | **Turtle Racing** | Turtle Graphics library | ⬜ Todo |
-| 11 | **WPM Typing Test** | Curses library, Real-time input | ⬜ Todo |
-| 15 | **NBA Stats Tool** | APIs, JSON parsing | ⬜ Todo |
-| 16 | **Currency Converter** | HTTP Requests, APIs | ⬜ Todo |
-| 17 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
-| 18 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
+| 07 | **Password Manager** | File I/O, Cryptography (Fernet) | ✅ Done |
+| 08 | **PIG Game** | Game logic, While loops | ✅ Done |
+| 09 | **Madlibs Generator** | String formatting, File reading | ✅ Done |
+| 10 | **Timed Math Challenge** | Time module, Performance tracking | ⬜ Todo |
+| 11 | **Slot Machine** | Probability, Betting logic | ⬜ Todo |
+| 12 | **Turtle Racing** | Turtle Graphics library | ⬜ Todo |
+| 13 | **WPM Typing Test** | Curses library, Real-time input | ⬜ Todo |
+| 14 | **NBA Stats Tool** | APIs, JSON parsing | ⬜ Todo |
+| 15 | **Currency Converter** | HTTP Requests, APIs | ⬜ Todo |
+| 16 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
+| 17 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
 
 ### 🔴 Advanced (Algorithms & Complex Logic)
 | # | Project Name | Key Concepts | Status |
 |:-:| :--- | :--- | :---: |
-| 14 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ⬜ Todo |
+| 18 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ⬜ Todo |
 | 19 | **Mastermind Game** | Complex Logic, Pattern matching | ⬜ Todo |
 | 20 | **Aim Trainer** | Pygame, Event handling, GUI | ⬜ Todo |
 | 21 | **Advanced Scripting** | Multithreading, System args | ⬜ Todo |
