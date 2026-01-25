@@ -29,7 +29,7 @@ I have categorized the projects by difficulty level:
 | 08 | **PIG Game** | Game logic, While loops | ✅ Done |
 | 09 | **Madlibs Generator** | String formatting, File reading | ✅ Done |
 | 10 | **Timed Math Challenge** | Time module, Performance tracking | ✅ Done |
-| 11 | **Slot Machine** | Probability, Betting logic | ⬜ Todo |
+| 11 | **Slot Machine** | Probability, Betting logic | ✅ Done |
 | 12 | **Turtle Racing** | Turtle Graphics library | ⬜ Todo |
 | 13 | **WPM Typing Test** | Curses library, Real-time input | ⬜ Todo |
 | 14 | **NBA Stats Tool** | APIs, JSON parsing | ⬜ Todo |
