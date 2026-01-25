@@ -1,7 +1,6 @@
 # =========================
-# Slot Machine Game
+# Slot Machine Game (Full Version With Balance & Validation)
 # =========================
-
 from random import choice
 
 # =========================
@@ -38,22 +37,19 @@ MIN_BET = 1
 MAX_BET = 100
 
 # =========================
-# Symbol Frequency 
+# Symbols
 # =========================
 SYMBOL_FREQUENCY = {
-    "A": 2,
-    "B": 4,
-    "C": 6,
+    "A": 5,
+    "B": 6,
+    "C": 7,
     "D": 8
 }
 
-# =========================
-# Symbol Values 
-# =========================
 SYMBOL_VALUES = {
-    "A": 10,
-    "B": 5,
-    "C": 3,
+    "A": 15,
+    "B": 8,
+    "C": 4,
     "D": 2
 }
 
@@ -64,85 +60,86 @@ SYMBOL_COLORS = {
     "D": Color.D
 }
 
-# =========================
-# Generate Slot Spin
-# =========================
-def generate_spin(rows, columns, symbol_frequency):
-    symbol_pool = []
-    for symbol, count in symbol_frequency.items():
-        symbol_pool.extend([symbol] * count)
 
-    columns_result = []
+# =========================
+# Generate Spin
+# =========================
+def generate_spin(rows, columns, frequency):
+    pool = []
+
+    for symbol, count in frequency.items():
+        pool.extend([symbol] * count)
+
+    result = []
 
     for _ in range(columns):
         column = []
-        available_symbols = symbol_pool[:]
+        available = pool[:]
 
         for _ in range(rows):
-            selected = choice(available_symbols)
-            available_symbols.remove(selected)
+            selected = choice(available)
+            available.remove(selected)
             column.append(selected)
 
-        columns_result.append(column)
+        result.append(column)
 
-    return columns_result
+    return result
 
 
 # =========================
-# Display Slot Machine
+# Display Slots
 # =========================
 def display_slots(columns):
     for row in range(len(columns[0])):
-        for col_index, column in enumerate(columns):
+        for i, column in enumerate(columns):
             symbol = column[row]
             color = SYMBOL_COLORS[symbol]
-
-            end_char = " | " if col_index < len(columns) - 1 else ""
+            end_char = " | " if i < len(columns) - 1 else ""
             print(f"{color}{symbol}{Color.END}", end=end_char)
         print()
 
 
 # =========================
-# Check Winnings
+# Calculate Winnings
 # =========================
-def calculate_winnings(columns, lines, bet, symbol_values):
-    total_winnings = 0
+def calculate_winnings(columns, lines, bet):
+    winnings = 0
 
     for line in range(lines):
-        first_symbol = columns[0][line]
+        first = columns[0][line]
 
         for column in columns:
-            if column[line] != first_symbol:
+            if column[line] != first:
                 break
         else:
-            total_winnings += symbol_values[first_symbol] * bet
+            winnings += SYMBOL_VALUES[first] * bet
 
-    return total_winnings
+    return winnings
 
 
 # =========================
-# User Input Functions
+# Input Functions
 # =========================
 def get_deposit():
     while True:
         try:
-            amount = int(input("Enter deposit amount: "))
-            if amount <= 0:
-                raise ValueError
-            return amount
+            amount = int(input("Enter your balance: "))
+            if amount > 0:
+                return amount
+            raise ValueError
         except ValueError:
-            print(f"{Color.ERROR}Please enter a positive number.{Color.END}")
+            print(f"{Color.ERROR}Enter positive number only.{Color.END}")
 
 
 def get_lines():
     while True:
         try:
-            lines = int(input(f"Number of lines (1-{MAX_LINES}): "))
+            lines = int(input(f"Lines to bet on (1-{MAX_LINES}): "))
             if 1 <= lines <= MAX_LINES:
                 return lines
             raise ValueError
         except ValueError:
-            print(f"{Color.ERROR}Invalid number of lines.{Color.END}")
+            print(f"{Color.ERROR}Invalid lines.{Color.END}")
 
 
 def get_bet():
@@ -153,34 +150,68 @@ def get_bet():
                 return bet
             raise ValueError
         except ValueError:
-            print(f"{Color.ERROR}Invalid bet amount.{Color.END}")
+            print(f"{Color.ERROR}Invalid bet.{Color.END}")
 
 
 # =========================
-# Main Game Logic
+# Main Game Loop
 # =========================
-def main():
+def game():
     balance = get_deposit()
-    lines = get_lines()
 
-    while True:
+    print(f"\n{Color.SUCCESS}Starting Balance: ${balance}{Color.END}\n")
+
+    while balance > 0:
+
+        print(f"{Color.BOLD}{Color.D}Current Balance: ${balance}{Color.END}")
+
+        lines = get_lines()
         bet = get_bet()
-        total_bet = bet * lines
+
+        total_bet = lines * bet
 
         if total_bet > balance:
-            print(f"{Color.ERROR}Insufficient balance.{Color.END}")
+            print(f"{Color.ERROR}Not enough balance!{Color.END}")
+            continue
+
+        balance -= total_bet
+
+        print(f"\nYou bet ${total_bet}\n")
+
+        slots = generate_spin(ROWS, COLUMNS, SYMBOL_FREQUENCY)
+        display_slots(slots)
+
+        winnings = calculate_winnings(slots, lines, bet)
+        balance += winnings
+
+        if winnings > 0:
+            print(f"\n{Color.SUCCESS}You won ${winnings}!{Color.END}")
         else:
-            break
+            print(f"\n{Color.ERROR}You lost ${total_bet}.{Color.END}")
 
-    print(f"{Color.SUCCESS}Total Bet: ${total_bet}{Color.END}\n")
+        print(f"{Color.BOLD}Remaining Balance: ${balance}{Color.END}")
 
-    slots = generate_spin(ROWS, COLUMNS, SYMBOL_FREQUENCY)
-    display_slots(slots)
+        # =========================
+        # Continue Validation
+        # =========================
+        while True:
+            choice_input = input("\nDo you want to continue? (y/n): ").lower().strip()
 
-    winnings = calculate_winnings(slots, lines, bet, SYMBOL_VALUES)
-    print(f"\n{Color.SUCCESS}You won ${winnings}{Color.END}")
+            if choice_input == "y":
+                break
+
+            elif choice_input == "n":
+                print("\nThanks for playing!")
+                return
+
+            else:
+                print(f"{Color.ERROR}Please enter only 'y' or 'n'.{Color.END}")
+
+    print(f"\n{Color.ERROR}You ran out of money! Game Over.{Color.END}")
 
 
-if __name__ == "__main__": 
-   main()     
-
+# =========================
+# Start Game
+# =========================
+if __name__ == "__main__":
+    game()
