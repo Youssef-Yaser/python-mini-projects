@@ -1,5 +1,5 @@
 # =========================
-# Slot Machine Game (Full Version With Balance & Validation)
+# Slot Machine Game 
 # =========================
 from random import choice
 
