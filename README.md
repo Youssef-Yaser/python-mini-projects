@@ -40,7 +40,7 @@ I have categorized the projects by difficulty level:
 ### 🔴 Advanced (Algorithms & Complex Logic)
 | # | Project Name | Key Concepts | Status |
 |:-:| :--- | :--- | :---: |
-| 18 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ⬜ Todo |
+| 18 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ✅ Done |
 | 19 | **Mastermind Game** | Complex Logic, Pattern matching | ⬜ Todo |
 | 20 | **Aim Trainer** | Pygame, Event handling, GUI | ⬜ Todo |
 | 21 | **Advanced Scripting** | Multithreading, System args | ⬜ Todo |
