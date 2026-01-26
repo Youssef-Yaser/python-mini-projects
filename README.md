@@ -31,7 +31,7 @@ I have categorized the projects by difficulty level:
 | 10 | **Timed Math Challenge** | Time module, Performance tracking | ✅ Done |
 | 11 | **Slot Machine** | Probability, Betting logic | ✅ Done |
 | 12 | **Turtle Racing** | Turtle Graphics library | ✅ Done |
-| 13 | **WPM Typing Test** | Curses library, Real-time input | ⬜ Todo |
+| 13 | **WPM Typing Test** | Curses library, Real-time input | ✅ Done |
 | 14 | **NBA Stats Tool** | APIs, JSON parsing | ⬜ Todo |
 | 15 | **Currency Converter** | HTTP Requests, APIs | ⬜ Todo |
 | 16 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
