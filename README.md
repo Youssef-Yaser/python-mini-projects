@@ -19,7 +19,7 @@ I have categorized the projects by difficulty level:
 | 02 | **Number Guessing Game** | Random module, Loops | ✅ Done |
 | 03 | **Rock, Paper, Scissors** | Conditionals, Random choice | ✅ Done |
 | 04 | **Adventure Game** | Nested loops, User flow | ✅ Done |
-| 05 | **Alarm Clock** | DateTime, Audio libraries | ⬜ Todo |
+| 05 | **Alarm Clock** | DateTime, Audio libraries | ✅ Done |
 | 06 | **Password Generator** | String manipulation, Randomization | ⬜ Todo |
 
 ### 🟡 Intermediate (Automation & External Libraries)
