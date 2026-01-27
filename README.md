@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 
 ## 📌 Overview
-This repository contains **21 Python projects** ranging from beginner scripts to advanced automation and GUI applications. 
+This repository contains **20 Python projects** ranging from beginner scripts to advanced automation and GUI applications. 
 
 The goal of this collection is to master Python fundamentals, file handling, API integration, and automation logic.
 
@@ -33,7 +33,6 @@ I have categorized the projects by difficulty level:
 | 12 | **Turtle Racing** | Turtle Graphics library | ✅ Done |
 | 13 | **WPM Typing Test** | Curses library, Real-time input | ✅ Done |
 | 14 | **NBA Stats Tool** | APIs, JSON parsing , convert to csv | ✅ Done |
-| 15 | **Currency Converter** | HTTP Requests, APIs | ⬜ Todo |
 | 16 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
 | 17 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
 
