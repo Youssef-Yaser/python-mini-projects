@@ -32,7 +32,7 @@ I have categorized the projects by difficulty level:
 | 11 | **Slot Machine** | Probability, Betting logic | ✅ Done |
 | 12 | **Turtle Racing** | Turtle Graphics library | ✅ Done |
 | 13 | **WPM Typing Test** | Curses library, Real-time input | ✅ Done |
-| 14 | **NBA Stats Tool** | APIs, JSON parsing | ⬜ Todo |
+| 14 | **NBA Stats Tool** | APIs, JSON parsing , convert to csv | ✅ Done |
 | 15 | **Currency Converter** | HTTP Requests, APIs | ⬜ Todo |
 | 16 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
 | 17 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
