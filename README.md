@@ -33,14 +33,14 @@ I have categorized the projects by difficulty level:
 | 12 | **Turtle Racing** | Turtle Graphics library | ✅ Done |
 | 13 | **WPM Typing Test** | Curses library, Real-time input | ✅ Done |
 | 14 | **NBA Stats Tool** | APIs, JSON parsing , convert to csv | ✅ Done |
-| 16 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
-| 17 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
+| 15 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
+| 16 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
 
 ### 🔴 Advanced (Algorithms & Complex Logic)
 | # | Project Name | Key Concepts | Status |
 |:-:| :--- | :--- | :---: |
-| 18 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ✅ Done |
-| 19 | **Mastermind Game** | Complex Logic, Pattern matching | ⬜ Todo |
-| 20 | **Aim Trainer** | Pygame, Event handling, GUI | ⬜ Todo |
-| 21 | **Advanced Scripting** | Multithreading, System args | ⬜ Todo |
+| 17 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ✅ Done |
+| 18 | **Mastermind Game** | Complex Logic, Pattern matching | ⬜ Todo |
+| 19 | **Aim Trainer** | Pygame, Event handling, GUI | ⬜ Todo |
+| 20 | **Advanced Scripting** | Multithreading, System args | ⬜ Todo |
 
