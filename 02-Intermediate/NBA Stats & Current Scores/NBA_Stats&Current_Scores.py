@@ -1,3 +1,7 @@
+# =========================
+#  NBA Stats&Current Scores
+# =========================
+
 from nba_api.live.nba.endpoints import scoreboard
 import csv
 
@@ -12,6 +16,15 @@ class Color:
     CYAN = '\033[96m'
     BOLD = '\033[1m'
     END = '\033[0m'
+
+# =========================
+# Header
+# =========================
+print(f"{Color.GREEN}{Color.BOLD}")
+print("=====================================")
+print("        NBA_Stats&Current_Scores     ")
+print("=====================================")
+print(f"{Color.END}")
 
 # =========================
 # Fetch Games
