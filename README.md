@@ -1,7 +1,8 @@
 # 🐍 Python Mini-Projects Collection
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
+
 
 ---
 
@@ -52,7 +53,7 @@ The goal of this collection is to strengthen Python fundamentals, practice probl
 |:-:| :--- | :--- | :---: |
 | 18 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ✅ Done |
 | 19 | **Aim Trainer** | Pygame, Event handling, GUI | ✅ Done |
-| 20 | **Advanced Scripting** | Multithreading, System arguments | ⬜ Todo |
+| 20 | **Advanced Scripting** | Multithreading, System arguments | ✅ Done |
 
 ---
 
