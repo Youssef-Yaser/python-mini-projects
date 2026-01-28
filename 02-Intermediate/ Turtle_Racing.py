@@ -19,6 +19,15 @@ class Color:
     END = '\033[0m'
 
 # =========================
+# Game Header
+# =========================
+print(f"{Color.GREEN}{Color.BOLD}")
+print("==========================")
+print("        Turtle Racing     ")
+print("==========================")
+print(f"{Color.END}")
+
+# =========================
 # Game Settings
 # =========================
 SCREEN_WIDTH , SCREEN_HEIGHT = 500 , 500
