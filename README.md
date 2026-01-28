@@ -51,7 +51,7 @@ The goal of this collection is to strengthen Python fundamentals, practice probl
 | # | Project Name | Key Concepts | Status |
 |:-:| :--- | :--- | :---: |
 | 18 | **Shortest Path Finder** | BFS/DFS Algorithms, Graph theory | ✅ Done |
-| 19 | **Aim Trainer** | Pygame, Event handling, GUI | ⬜ Todo |
+| 19 | **Aim Trainer** | Pygame, Event handling, GUI | ✅ Done |
 | 20 | **Advanced Scripting** | Multithreading, System arguments | ⬜ Todo |
 
 ---
