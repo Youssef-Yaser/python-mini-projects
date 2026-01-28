@@ -42,7 +42,7 @@ The goal of this collection is to strengthen Python fundamentals, practice probl
 | 14 | **WPM Typing Test** | Curses library, Real-time input | ✅ Done |
 | 15 | **NBA Stats Tool** | APIs, JSON parsing, CSV export | ✅ Done |
 | 16 | **YouTube Downloader** | Pytube library, Automation | ✅ Done |
-| 17 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
+| 17 | **Auto File Backup** | OS module, Shutil, Cron jobs | ✅ Done |
 
 ---
 
