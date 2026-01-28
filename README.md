@@ -33,7 +33,7 @@ I have categorized the projects by difficulty level:
 | 12 | **Turtle Racing** | Turtle Graphics library | ✅ Done |
 | 13 | **WPM Typing Test** | Curses library, Real-time input | ✅ Done |
 | 14 | **NBA Stats Tool** | APIs, JSON parsing , convert to csv | ✅ Done |
-| 15 | **YouTube Downloader** | Pytube library, Automation | ⬜ Todo |
+| 15 | **YouTube Downloader** | Pytube library, Automation | ✅ Done |
 | 16 | **Auto File Backup** | OS module, Shutil, Cron jobs | ⬜ Todo |
 
 ### 🔴 Advanced (Algorithms & Complex Logic)
