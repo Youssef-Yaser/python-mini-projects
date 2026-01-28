@@ -1,7 +1,32 @@
+# =========================
+#  WPM Typing Test 
+# =========================
+
 import curses
 from curses import wrapper
 import time
 import random
+
+# =========================
+# Terminal Colors
+# =========================
+class Color:
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    CYAN = '\033[96m'
+    BOLD = '\033[1m'
+    END = '\033[0m'
+
+# =========================
+# Header
+# =========================
+print(f"{Color.GREEN}{Color.BOLD}")
+print("============================")
+print("        WPM Typing Test     ")
+print("============================")
+print(f"{Color.END}")
 
 
 def start_screen(stdscr):
